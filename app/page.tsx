@@ -5,6 +5,7 @@ import { Skills } from "@/components/main/skills";
 import { Package } from "@/components/main/package";
 import Resume from "@/components/main/Resume";
 import Contact from "@/components/main/Contact";
+import Team from "@/components/main/Team";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Projects />
         <Package />
         <Resume />
+        <Team />
         <Contact />
       </div>
     </main>

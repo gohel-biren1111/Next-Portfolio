@@ -1,0 +1,255 @@
+.skills {
+  padding: 120px 0;
+  background: linear-gradient(
+    135deg,
+    #30302c 0%,
+    rgba(20, 20, 20, 0.1) 50%,
+    #30302c 100%
+  );
+  position: relative;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.gradientButton {
+  position: relative;
+  z-index: 2;
+  margin-top: 30px;
+  background: linear-gradient(90deg, #3b82f6, #000000, #facc15);
+  background-size: 200% 100%;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  transition: background-position 0.25s ease-out, transform 0.2s ease-out,
+    box-shadow 0.25s ease-out;
+
+  box-shadow: 0 0 15px rgba(217, 251, 217, 0.2);
+
+  &:hover {
+    background-position: 100% 0;
+    box-shadow: 0 0 30px rgba(217, 251, 217, 0.4),
+      0 0 60px rgba(168, 85, 247, 0.3);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.title {
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 0.9;
+  color: #fff;
+  margin-bottom: 16px;
+  letter-spacing: -2px;
+
+  span {
+    color: #a855f7;
+  }
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #ccc;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.skillsGrid {
+  position: relative;
+}
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.skillCard {
+  background: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 20px;
+  padding: 32px;
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.skillCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(217, 251, 6, 0.1) 50%,
+    transparent 100%
+  );
+  transition: left 0.5s ease;
+}
+
+.skillCard:hover::before {
+  left: 100%;
+}
+
+.skillCard:hover {
+  border-color: #d9fb06;
+  background: rgba(217, 251, 6, 0.05);
+}
+
+.skillIcon {
+  margin: 0 auto 24px;
+  width: 80px;
+  height: 80px;
+  background: rgba(217, 251, 6, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+  .teamImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.skillCard:hover .skillIcon {
+  background: rgba(217, 251, 6, 0.2);
+  transform: scale(1.1) rotateY(10deg);
+}
+
+.emoji {
+  font-size: 32px;
+  display: block;
+}
+
+.skillInfo {
+  margin-bottom: 24px;
+}
+
+.skillName {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.skillCategory {
+  font-size: 14px;
+  color: #bbb;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 16px;
+  min-height: 40px;
+}
+
+.skillLevel {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.skillCard:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(-10px);
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .header {
+    margin-bottom: 48px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  .title {
+    font-weight: 900;
+    font-size: 42px;
+  }
+  .skills {
+    padding: 50px 0;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .title {
+    font-weight: 900;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-weight: 900;
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 767px) {
+  .skillsContainer {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .title {
+    font-weight: 900;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .title {
+    font-weight: 900;
+    font-size: 28px;
+  }
+}

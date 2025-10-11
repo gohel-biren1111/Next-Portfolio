@@ -21,7 +21,7 @@ export const Navbar = () => {
             draggable={false}
             className="cursor-pointer rounded-full"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-100">
+          <div className="hidden md:flex ml-[10px] font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
             Biren Gohel
           </div>
         </Link>

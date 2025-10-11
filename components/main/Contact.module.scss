@@ -439,20 +439,99 @@
 }
 
 @media (max-width: 479px) {
+  .contact {
+    padding: 40px 16px;
+  }
+
   .title {
-    font-size: 28px;
+    font-size: 24px;
+    word-break: break-word;
   }
+
   .subtitle {
-    font-size: 14px;
+    font-size: 13px;
   }
+
+  .availability {
+    font-size: 13px;
+  }
+
   .formTitle {
     font-size: 18px;
+    margin-bottom: 20px;
   }
+
   .contactWrapper {
     gap: 16px;
   }
+
   .contactInfo,
   .contactForm {
     padding: 16px;
+    border-radius: 12px;
+  }
+
+  .contactMethod {
+    gap: 12px;
+    padding: 16px 0;
+  }
+
+  .methodIcon {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .methodLabel {
+    font-size: 12px;
+  }
+
+  .methodValue {
+    font-size: 14px;
+    word-break: break-all;
+  }
+
+  .socialTitle {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .socialIcons {
+    gap: 12px;
+  }
+
+  .socialLink {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .input,
+  .textarea {
+    padding: 10px 14px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+  .textarea {
+    min-height: 80px;
+  }
+
+  .submitButton {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .submitStatus {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .contactMethods {
+    margin-bottom: 32px;
   }
 }
