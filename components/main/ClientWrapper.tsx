@@ -15,7 +15,7 @@ export const ClientWrapper = () => {
         (e.ctrlKey && e.shiftKey && e.key === "J") ||
         (e.ctrlKey && e.key === "U")
       ) {
-        console.log(`Prevented key: ${e.key}`);
+        // console.log(`Prevented key: ${e.key}`);
         e.preventDefault();
       }
     };

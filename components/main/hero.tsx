@@ -11,7 +11,7 @@ export const Hero = () => {
           rotate-180 absolute left-0 w-full h-full object-cover -z-20
           top-[-480px] lg:top-[-340px]
           max-[767px]:top-[-475px]
-          max-[479px]:top-[-425px]
+          max-[479px]:top-[-440px]
         "
       >
         <source src="/videos/blackhole.mp4" type="video/webm" />

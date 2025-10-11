@@ -41,9 +41,9 @@ export const HeroContent = () => {
               leading-[1.2] sm:leading-[1.25] md:leading-[1.3] xl:leading-[1.35] 2xl:leading-[1.4]
             "
           >
-            Your Vision, My{" "}
+            Future-Ready Web{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              Next.js Expertise
+              One Component at a Time.
             </span>
           </span>
         </motion.div>
@@ -54,12 +54,12 @@ export const HeroContent = () => {
           className="text-gray-400 my-5 max-w-full lg:max-w-[600px]
             leading-[1.5] sm:leading-[1.55] md:leading-[1.6] xl:leading-[1.65] 2xl:leading-[1.7]"
           style={{
-            fontSize: "clamp(0.875rem, 1.4vw, 1.125rem)", // 14px–18px smoothly responsive
+            fontSize: "clamp(0.875rem, 1.4vw, 1.125rem)",
           }}
         >
-          I&apos;m a Frontend Developer with 1.5+ years of experience building
-          scalable websites and impactful software solutions. Take a look at my
-          projects and skills.
+          I&apos;m a Passionate Frontend Developer with 1.8+ years of experience
+          building scalable/fast and pixel to pixel web applications and
+          impactful software solutions. Take a look at my projects and skills.
         </motion.p>
 
         {/* Resume Button */}

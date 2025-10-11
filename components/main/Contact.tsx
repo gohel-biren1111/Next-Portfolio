@@ -28,7 +28,7 @@ const Contact = () => {
       "Feel free to reach out for collaborations or just a friendly hello 👋",
     availability: "Available for freelance and full-time opportunities",
     email: "birengohel01111@gmail.com",
-    phone: "+91 9104614653",
+    phone: "+91 91046 14653",
     location: "Surat, India",
     social: {
       github: "https://github.com/biren-gohel-1111",
@@ -49,7 +49,7 @@ const Contact = () => {
     setSubmitStatus("");
 
     try {
-      console.log("Form Data:", values);
+      // console.log("Form Data:", values);
       await new Promise((resolve) => setTimeout(resolve, 2000));
       setSubmitStatus("success");
       resetForm();
