@@ -96,6 +96,12 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
   {
+    skill_name: "SEO",
+    image: "seo.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Figma",
     image: "figma.png",
     width: 55,
