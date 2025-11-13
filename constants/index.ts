@@ -53,8 +53,14 @@ export const FRONTEND_SKILL = [
     height: 65,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    skill_name: "React",
+    image: "react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Redux",
+    image: "redux.png",
     width: 80,
     height: 80,
   },
@@ -65,8 +71,15 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "React",
-    image: "react.png",
+    skill_name: "TypeScript",
+    image: "ts.png",
+    width: 80,
+    height: 80,
+  },
+
+  {
+    skill_name: "Tailwind CSS",
+    image: "tailwind.png",
     width: 80,
     height: 80,
   },
@@ -79,12 +92,6 @@ export const FRONTEND_SKILL = [
   {
     skill_name: "Stripe",
     image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "SEO",
-    image: "seo.png",
     width: 80,
     height: 80,
   },
@@ -106,7 +113,7 @@ export const PROJECTS = [
   {
     title: "Soirée Season — Curated Elegance for Every Occasion",
     description:
-      "Discover Soirée Season is a e-commerce website refined fashion and lifestyle destination celebrating timeless style, thoughtful gifting, and modern sophistication. From handcrafted jewelry to curated home accents, every piece tells a story of elegance and creativity — designed to make every celebration uniquely yours.",
+      "Discover Soirée Season, a refined fashion and lifestyle destination celebrating timeless style, thoughtful gifting, and modern sophistication. From handcrafted jewelry to curated home accents, every piece tells a story of elegance and creativity — designed to make every celebration uniquely yours.",
     image: "/projects/project-1.png",
     link: "https://soireeseason.com/",
   },
@@ -137,7 +144,7 @@ export const PROJECTS = [
     description:
       'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
     image: "/projects/project-4.png",
-    link: "https://www.gulflasertag.net/",
+    link: "https://nadayahya.zooq.app/en",
   },
   {
     title: "Boost Your Online Presence with 10Turtle SEO",
@@ -147,7 +154,7 @@ export const PROJECTS = [
     link: "https://seo.10turtle.com/",
   },
   {
-    title: "AskGPT Conversational AI Platform",
+    title: "AskGPT Conversational AI Assistant",
     description:
       "AskGPT is a versatile conversational AI platform for text-based interaction and creative content generation and image generation. It offers multi-model support for creativity, productivity,and learning , and tools for brainstorming, writing, and productivity workflows.",
     image: "/projects/project-6.png",
@@ -173,6 +180,27 @@ export const PACKAGES = [
     description:
       "A React hook that enables offline data synchronization and seamless updates when the network is restored.",
     link: "https://www.npmjs.com/package/react-offline-sync-hook",
+  },
+];
+
+export const TEAM_DATA = [
+  {
+    name: "Janak Sharma",
+    role: "Frontend Developer",
+    img: "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?auto=format&fit=crop&w=800&q",
+    desc: "Expert in React.js, Next.js, and UI animations.",
+  },
+  {
+    name: "Anita Patel",
+    role: "Backend Developer",
+    img: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q",
+    desc: "Specializes in Node.js, Express, and MongoDB.",
+  },
+  {
+    name: "Rahul Mehta",
+    role: "Full Stack Developer",
+    img: "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=800&q",
+    desc: "Building complete MERN solutions from scratch.",
   },
 ];
 
@@ -295,13 +323,13 @@ export const LINKS = {
 export const RESUME_DATA = {
   title: "Download / See Resume",
   description:
-    "Get a comprehensive overview of my skills, experience and projects.",
+    "Get a comprehensive overview of my skills, experience, and achievements",
   downloadUrl: "/Biren_Gohel_Resume.pdf",
   sections: [
     "Professional Experience",
     "Technical Skills",
+    "Education & Certifications",
     "Notable/Key Projects",
-    "Education Background",
     "Contact Information",
   ],
 } as const;
