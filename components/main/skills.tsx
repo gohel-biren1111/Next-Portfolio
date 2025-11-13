@@ -4,7 +4,7 @@ import { FRONTEND_SKILL } from "@/constants";
 
 export const Skills = () => {
   // Define how many items per row
-  const layout = [1, 2, 4, 5];
+  const layout = [1, 2, 4, 6];
   let index = 0;
 
   return (
