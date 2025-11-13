@@ -7,21 +7,21 @@ import { PACKAGES } from "@/constants";
 
 export const Package = () => {
   return (
-    <div id="package">
-      <motion.section
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
-        transition={{ staggerChildren: 0.2 }}
-        className="flex flex-col items-center justify-center py-0"
+    <motion.section
+      id="package"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ staggerChildren: 0.2 }}
+      className="flex flex-col items-center justify-center py-0"
+    >
+      {/* Heading Animation */}
+      <motion.h2
+        variants={slideInFromTop}
+        className="text-3xl sm:text-4xl md:text-4xl lg:text-3xl text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-10"
       >
-        {/* Heading Animation */}
-        <motion.h2
-          variants={slideInFromTop}
-          className="text-3xl sm:text-4xl md:text-4xl lg:text-3xl text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-10"
-        >
-          My Custom NPM Packages
-        </motion.h2>
+        My NPM Packages
+      </motion.h2>
 
         {/* Packages Grid */}
         <div className="flex flex-wrap gap-10 justify-center mb-[60px]">

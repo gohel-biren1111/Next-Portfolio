@@ -13,29 +13,15 @@ export const Navbar = () => {
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
         {/* Profile Picture + Name */}
         <Link href="/" className="flex items-center">
-          <div className="relative cursor-pointer">
-            {/* Wave rings */}
-            <div className="absolute inset-0 rounded-full border-2 border-cyan-400/40 animate-ping shadow-lg shadow-cyan-500/20"></div>
-            <div
-              className="absolute inset-0 rounded-full border-2 border-violet-400/50 animate-pulse shadow-md shadow-violet-500/30"
-              style={{ animationDelay: "0.5s" }}
-            ></div>
-            <div
-              className="absolute -inset-1 rounded-full border border-emerald-400/30 animate-ping shadow-sm shadow-emerald-500/25"
-              style={{ animationDelay: "1s" }}
-            ></div>
-
-            {/* Profile Image */}
-            <Image
-              src="/Profilepicture.png"
-              alt="Profile Picture"
-              width={40}
-              height={40}
-              draggable={false}
-              className="relative z-10 rounded-full hover:scale-105 transition-transform duration-300"
-            />
-          </div>
-          <div className="hidden md:flex ml-[10px] font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+          <Image
+            src="/Profilepicture.png"
+            alt="Profile Picture"
+            width={40}
+            height={40}
+            draggable={false}
+            className="cursor-pointer rounded-full"
+          />
+          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-100">
             Biren Gohel
           </div>
         </Link>

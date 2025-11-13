@@ -53,20 +53,8 @@ export const FRONTEND_SKILL = [
     height: 65,
   },
   {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
+    skill_name: "Tailwind CSS",
+    image: "tailwind.png",
     width: 80,
     height: 80,
   },
@@ -77,8 +65,8 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    skill_name: "React",
+    image: "react.png",
     width: 80,
     height: 80,
   },
@@ -185,27 +173,6 @@ export const PACKAGES = [
     description:
       "A React hook that enables offline data synchronization and seamless updates when the network is restored.",
     link: "https://www.npmjs.com/package/react-offline-sync-hook",
-  },
-];
-
-export const TEAM_DATA = [
-  {
-    name: "Janak Shah",
-    role: "Frontend Developer",
-    img: "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?auto=format&fit=crop&w=800&q",
-    desc: "Expert in React.js, Next.js, and UI animations.",
-  },
-  {
-    name: "Anita Patel",
-    role: "Backend Developer",
-    img: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q",
-    desc: "Specializes in Node.js, Express, and MongoDB.",
-  },
-  {
-    name: "Rahul Mehta",
-    role: "Full Stack Developer",
-    img: "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=800&q",
-    desc: "Building complete MERN solutions from scratch.",
   },
 ];
 

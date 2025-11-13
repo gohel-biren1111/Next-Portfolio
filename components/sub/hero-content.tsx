@@ -57,9 +57,9 @@ export const HeroContent = () => {
             fontSize: "clamp(0.875rem, 1.4vw, 1.125rem)",
           }}
         >
-          I&apos;m a Passionate Frontend Developer with 1.8+ years of experience
-          building scalable/fast and pixel to pixel web applications and
-          impactful software solutions. Take a look at my projects and skills.
+          I&apos;m a Frontend Developer with 1.5+ years of experience building
+          scalable websites and impactful software solutions. Take a look at my
+          projects and skills.
         </motion.p>
 
         {/* Resume Button */}

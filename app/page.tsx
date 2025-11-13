@@ -17,7 +17,6 @@ export default function Home() {
         <Projects />
         <Package />
         <Resume />
-        {/* <Team /> */}
         <Contact />
       </div>
     </main>
