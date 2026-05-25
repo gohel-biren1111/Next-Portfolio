@@ -137,21 +137,13 @@ export const PROJECTS = [
     image: "/projects/project-3.png",
     link: "https://genxi.io/voicegenai/",
   },
-  {
-    title: "Epen SupportChat — All-in-One Smart Chatbot",
-    description:
-      "Epen SupportChat lets you send text, images, audio, video, PDFs, Word, Excel, and more. Reply, react with emojis, track history with date redirect picker, and enjoy a seamless interactive chat experience.",
-    image: "/projects/project-7.png",
-    link: "https://epen.dev/supportchat",
-  },
-
-  {
-    title: "Elevate Your Game with Gulf Laser Tag",
-    description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-4.png",
-    link: "https://nadayahya.zooq.app/en",
-  },
+  // {
+  //   title: "Epen SupportChat — All-in-One Smart Chatbot",
+  //   description:
+  //     "Epen SupportChat lets you send text, images, audio, video, PDFs, Word, Excel, and more. Reply, react with emojis, track history with date redirect picker, and enjoy a seamless interactive chat experience.",
+  //   image: "/projects/project-7.png",
+  //   link: "https://epen.dev/supportchat",
+  // },
   {
     title: "Boost Your Online Presence with 10Turtle SEO",
     description:
@@ -166,6 +158,13 @@ export const PROJECTS = [
     image: "/projects/project-6.png",
     link: "https://genxi.io/askgpt",
   },
+  {
+    title: "Elevate Your Game with Gulf Laser Tag",
+    description:
+      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+    image: "/projects/project-4.png",
+    link: "https://nadayahya.zooq.app/en",
+  }
 ] as const;
 
 export const PACKAGES = [
@@ -234,11 +233,11 @@ export const FOOTER_DATA = [
         icon: RxLinkedinLogo,
         link: "https://www.linkedin.com/in/biren-gohel-14b3012b6/",
       },
-      {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com/biren_1111",
-      },
+      // {
+      //   name: "Instagram",
+      //   icon: RxInstagramLogo,
+      //   link: "https://instagram.com/biren_1111",
+      // },
     ],
   },
   {

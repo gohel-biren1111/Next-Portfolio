@@ -20,7 +20,7 @@ export const Package = () => {
           variants={slideInFromTop}
           className="text-3xl sm:text-4xl md:text-4xl lg:text-3xl text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-10"
         >
-          My Custom NPM Packages
+          My Custom <span className="text-white">NPM Packages</span>
         </motion.h2>
 
         {/* Packages Grid */}

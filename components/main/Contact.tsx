@@ -39,9 +39,9 @@ const Contact = () => {
 
   // ----- Formik Validation Schema -----
   const validationSchema = Yup.object().shape({
-    name: Yup.string().required("Name is required"),
-    email: Yup.string().email("Invalid email").required("Email is required"),
-    message: Yup.string().required("Message is required"),
+    name: Yup.string().required("Please enter your name"),
+    email: Yup.string().email("Invalid email").required("Please enter your email"),
+    message: Yup.string().required("Please enter your message"),
   });
 
   const onSubmit = async (values: any, { resetForm }: any) => {
@@ -182,11 +182,11 @@ const Contact = () => {
                       rotate: -5,
                     },
 
-                    {
-                      icon: FaInstagram,
-                      link: contactInfo.social.instagram,
-                      rotate: -5,
-                    },
+                    // {
+                    //   icon: FaInstagram,
+                    //   link: contactInfo.social.instagram,
+                    //   rotate: -5,
+                    // },
                   ].map((item, idx) => {
                     const Icon = item.icon;
                     return (
@@ -220,7 +220,7 @@ const Contact = () => {
                       <Field
                         name="name"
                         type="text"
-                        placeholder="Your Name"
+                        placeholder="Enter a name"
                         className={styles.input}
                       />
                       <ErrorMessage
@@ -234,7 +234,7 @@ const Contact = () => {
                       <Field
                         name="email"
                         type="email"
-                        placeholder="Your Email"
+                        placeholder="Enter a email"
                         className={styles.input}
                       />
                       <ErrorMessage
@@ -249,7 +249,7 @@ const Contact = () => {
                         name="message"
                         as="textarea"
                         rows={6}
-                        placeholder="Your Message"
+                        placeholder="Enter a message"
                         className={styles.textarea}
                       />
                       <ErrorMessage

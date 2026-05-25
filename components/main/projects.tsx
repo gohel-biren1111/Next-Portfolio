@@ -7,7 +7,7 @@ export const Projects = () => {
       <div id="projects">
         <section className="flex flex-col items-center justify-center pt-0 py-20">
           <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pt-0 pb-[30px] lg:py-20">
-            My Project Work
+            My Project <span className="text-white">Work</span>
           </h1>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-10 w-full">
